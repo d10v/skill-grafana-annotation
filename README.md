@@ -18,6 +18,16 @@ A skill for opsdroid to create and view Grafana annotations
 
 # Usage
 
-#### `annotations (tag1 tag2)`
+tags in parenthesis are optional
 
 #### `annotate some text (tag1 tag2)`
+> user: annotate important event started (prod)
+>
+> opsdroid: Creating annotation, Grafana replies: '{'id': 1, 'message': 'Annotation added'}'
+
+#### `annotations (tag1 tag2)`
+> user: annotations (prod)
+>
+> opsdroid: Getting annotaions
+>
+> opsdroid: 2018-11-16T12:30:41+00:00 (seconds ago) important event started (prod dima)
