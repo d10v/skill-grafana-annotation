@@ -56,7 +56,7 @@ async def _put_annotation(config, msg, user):
 @match_regex(r'annotations(.*)', case_sensitive=False)
 async def get_annotations(opsdroid, config, message):
     annotations = await _get_annotations(config, message.regex.group(1))
-    await message.respond("Getting annotaions")
+    await message.respond("Getting annotations")
     for annotation in annotations:
         await message.respond(format_annotation(annotation))
 

@@ -28,6 +28,6 @@ tags in parenthesis are optional
 #### `annotations (tag1 tag2)`
 > user01: annotations (prod)
 >
-> opsdroid: Getting annotaions
+> opsdroid: Getting annotations
 >
 > opsdroid: 2018-11-16T12:30:41+00:00 (seconds ago) important event started (prod user01)
